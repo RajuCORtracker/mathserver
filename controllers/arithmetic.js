@@ -1,7 +1,7 @@
 var express=require('express');
 var router=express.Router();
 
-console.log("HI in Router")
+//console.log("HI in Router")
 const { sqrt,pow,abs,ceil,cube,floor,fix,round,gcd} =require('mathjs');
 router.get('/add/:n1/:n2',(req,res)=> {
     try{
